@@ -1,4 +1,11 @@
 # Githug
+ *笔记：
+ *[root@nba2015_ope zouly]# gem install githug 
+ *ERROR:  While executing gem ... (Gem::RemoteFetcher::FetchError)
+  *   Errno::ECONNRESET: Connection reset by peer - SSL_connect (https://api.rubygems.org/quick/Marshal.4.8/githug-0.4.8.gemspec.rz)
+ *解决方法：更换gem源
+ *gem sources -r https://rubygems.org/
+ *gem sources -a https://ruby.taobao.org/
 Git Your Game On [![Build Status](https://travis-ci.org/Gazler/githug.png?branch=master)](https://travis-ci.org/Gazler/githug) [![Code Climate](https://codeclimate.com/github/Gazler/githug.png)](https://codeclimate.com/github/Gazler/githug)
 ## About
 Githug is designed to give you a practical way of learning git.  It has a series of levels, each requiring you to use git commands to arrive at a correct answer.
