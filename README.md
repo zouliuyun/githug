@@ -1,7 +1,7 @@
 # Githug
- *笔记：
- *[root@nba2015_ope zouly]# gem install githug 
- *ERROR:  While executing gem ... (Gem::RemoteFetcher::FetchError)
+ * 笔记：
+ * [root@nba2015_ope zouly]# gem install githug 
+ * ERROR:  While executing gem ... (Gem::RemoteFetcher::FetchError)
   *   Errno::ECONNRESET: Connection reset by peer - SSL_connect (https://api.rubygems.org/quick/Marshal.4.8/githug-0.4.8.gemspec.rz)
  *解决方法：更换gem源
  *gem sources -r https://rubygems.org/
